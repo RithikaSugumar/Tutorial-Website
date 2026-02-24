@@ -49,12 +49,14 @@ server {
         proxy_pass http://localhost:3000/;
     }
 }
+# CI/CD pipeline
+.github/workflows/docker.yml
 
-This project demonstrates:
+# This project demonstrates:
 Full-stack MEAN application deployment
 Docker containerization
 Reverse proxy using Nginx
 CI/CD automation with GitHub Actions
 Cloud hosting on AWS EC2
-sudo apt install docker-compose -ygit clone https://github.com/YOUR_USERNAME/Tutorial-Website.git
+sudo apt install docker-compose -ygit clone https://github.com/RithikaSugumar/Tutorial-Website.git
 cd Tutorial-Website
